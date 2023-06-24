@@ -38,7 +38,7 @@ window.addEventListener("keydown", (start) => {
 window.addEventListener("keydown", (e) => {
     //    console.log(e);
 
-    if (e.code == "Space")
+    if (e.key == "ArrowUp")
         if (dino.classList != "dinoActive") {
             dino.classList.add("dinoActive");
 
