@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Projekti</title>
+	<title>Projekti:Multi-Game</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<style type="text/css">
 
@@ -11,9 +11,19 @@
   font-family: 'Itim', cursive;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
 	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(Img/background1.jpg);
   background-position: center;
+  position: relative;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+  margin: 0;
+  min-height: 100%;
 }	
 
 i {
@@ -76,7 +86,7 @@ i {
   font-weight: bold;
   border-radius: 5px;
   box-shadow: #05BFDB 0px 22px 70px 4px;
-  margin-top: 10%;
+  margin-top: 3%;
   width: 30%;
   align-items: center;
   height: 60px;
@@ -101,7 +111,13 @@ i {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 12%;
+  margin-top: 10%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
 }
 
 footer {
@@ -132,6 +148,8 @@ footer {
         <li><a href="TTT.html">Tic Tac Toe</a></li>
         <li><a href="RPS.html">Rock Paper Scissors</a></li>
         <li><a href="Snake.html">Snake</a></li>
+        <li><a href="DINO.html">Dino</a></li>
+        <li><a href="FLAPPY.html">Flappy bird</a></li>
       </ul>
     </div>
   </nav>
@@ -143,13 +161,18 @@ footer {
       <div><a href="Snake.html"><img src="Img/snake.png" class="games"></a></div>
     </div>
 
+    <div class="container1">
+      <div><a href="DINO.html"><img src="Img/dino.jpg" class="games"></a></div>
+      <div><a href="FLAPPY.html"><img src="Img/flappy.png" class="games"></a></div>
+    </div>
+
 <div class="button">
     <a href="TTT.html" class="get-started-button">Get Started</a>
 </div>
 
      <footer>
     <div class="footer-content">
-      <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <p>&copy; 2023 Multi-Game. All rights reserved.</p>
     </div>
   </footer>
 
