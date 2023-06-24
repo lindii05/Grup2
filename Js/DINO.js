@@ -29,7 +29,7 @@ window.addEventListener("keydown", (start) => {
 
         //score
         let playerScore = 0;
-        interval = setInterval(scoreCounter, 100);
+        interval = setInterval(scoreCounter, 70);
     }
 });
 
@@ -38,7 +38,7 @@ window.addEventListener("keydown", (start) => {
 window.addEventListener("keydown", (e) => {
     //    console.log(e);
 
-    if (e.key == "ArrowUp")
+    if (e.code == "Space")
         if (dino.classList != "dinoActive") {
             dino.classList.add("dinoActive");
 
