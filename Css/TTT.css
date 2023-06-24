@@ -99,14 +99,14 @@ nav {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #293447;
   padding: 10px;
   position: absolute;
   top: 5%;
   box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
   border-radius: 10px;
-  width: 45%;
+  width: 55%;
   font-size: 18px;
 }
 
@@ -148,11 +148,11 @@ footer {
   background-color: #293447;
   padding: 20px;
   text-align: center;
-  width: 43.5%;
+  width: 55%;
   position: absolute;
   bottom: 0;
   border-radius: 10px;
-  margin-left: 27%;
+  margin-left: 21%;
 }
 
 .footer-content p {

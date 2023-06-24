@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../Img/background1.jpg);
+  background-position: center;
+}
+
+header {
+  margin: 0 auto;
+  width: 431px;
+}
+
+h1 {
+  background: url("https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png") 0% 340px;
+  padding: 1.2rem 0;
+  margin: 0;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #5EE270;
+}
+
+i {
+  height: 35px;
+  width: 35px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #293447;
+  padding: 7px;
+  position: absolute;
+  top: 5%;
+  box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+  border-radius: 10px;
+  width: 7%;
+  height: 60%;  
+  margin-left: 10%;
+}
+
+.nav-links {
+  font-family: 'Itim', cursive;
+  font-size: 18px;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+
+.nav-links li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.nav-links li a:hover {
+  background-color: #088395;
+  transition: 0.3s linear;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+}
