@@ -18,6 +18,8 @@ body {
     width: 1200px;
     position: relative;
     overflow: hidden;
+    background-color: #293447;
+    border-radius: 15px;
 }
 
 #container #dino {
@@ -133,7 +135,7 @@ body {
     width: auto;
     position: absolute;
     top: 20px;
-    right: 0;
+    right: 3%;
     color: white;
 }
 
@@ -145,7 +147,7 @@ body {
     top: calc(50% - 40px);
     width: 362px;
     height: 80px;
-    color: #525252;
+    color: white;
 }
 
 i{
