@@ -4,10 +4,22 @@
     font-family: 'Itim', cursive;
 }
 
-.background {
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../Img/background1.jpg);
     background-position: center;
-    height: 100vh;
+    position: relative;
+    box-sizing: inherit;
+    min-height: 100%;
+    padding-bottom: 6.74rem;
+    margin: 0;
+}
+
+.background {
     padding-top: 1px;
 }
 
@@ -106,7 +118,7 @@ nav {
   top: 5%;
   box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
   border-radius: 10px;
-  width: 55%;
+  width: 60%;
   font-size: 18px;
 }
 
@@ -149,13 +161,15 @@ footer {
   padding: 20px;
   text-align: center;
   width: 55%;
+  border-radius: 10px;
   position: absolute;
   bottom: 0;
-  border-radius: 10px;
+  right: 0;
+  left: 0;
   margin-left: 21%;
 }
 
-.footer-content p {
+footer p {
   color: white;
   width: 100%;
   font-size: 18px;
