@@ -15,9 +15,14 @@ body {
   background-position: center;
 }
 
-i {
-  height: 35px;
-  width: 35px;
+i{
+    height: 35px;
+    width: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -30,7 +35,9 @@ i {
   top: 5%;
   box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
   border-radius: 10px;
-  width: 45%;
+  width: 60%;
+  font-size: 18px;
+  margin-left: 33%;
 }
 
 .nav-links {
@@ -144,13 +151,17 @@ footer {
   background-color: #293447;
   padding: 20px;
   text-align: center;
-  width: 43.5%;
+  width: 60%;
+  border-radius: 10px;
   position: absolute;
   bottom: 0;
-  border-radius: 10px;
+  right: 0;
+  left: 0;
+  margin-left: 20%;
 }
 
-.footer-content p {
+footer p {
   color: white;
   width: 100%;
+  font-size: 18px;
 }

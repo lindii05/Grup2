@@ -174,3 +174,17 @@ footer p {
   width: 100%;
   font-size: 18px;
 }
+
+@media(max-width: 982px){
+    .navbar {
+        width: 100%;
+        top: 0;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 578px){
+    nav {
+        margin-bottom: 10%;
+    }
+}
